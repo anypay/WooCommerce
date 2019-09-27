@@ -1,2 +1,1 @@
 # WooCommerce
-[chat][on telegram]
