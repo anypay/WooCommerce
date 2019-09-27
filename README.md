@@ -50,3 +50,6 @@ Anypay Payment Gateway is a custom WooCommerce plugin that is powered by Anypay'
 
 Please reach out to <support@anypayinc.com> for assistance or any questions
 
+# Example Site 
+
+<p>Try out our example site <a href="https://anypaymugs.com">https://anypaymugs.com</a></p>
