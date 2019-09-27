@@ -13,7 +13,7 @@ Anypay Payment Gateway is a custom WooCommerce plugin that is powered by Anypay'
 
 # How does it work?
 
-* The Buyer prepares the order and click on the "proceed to Anypay" button.
+* The Buyer prepares the order and clicks on the "proceed to Anypay" button.
 
 * The Buyer is redirected to the invoice 
 
@@ -33,7 +33,15 @@ Anypay Payment Gateway is a custom WooCommerce plugin that is powered by Anypay'
 
 * Place this file into the plugins folder of your WordPress site `wordpress-html/wp-content/plugins/anypay_woocommerce.php`
 
+
+# Set up 
+
 * Now in your WordPress Admin Dashboard, Enter your BSV address into the Anypay Gateway Settings: `Admin -> WooCommerce -> Settings -> Payments Tab -> Anypay Gateway`
+
+<p><img src="./assets/setup.png"></p>
+
+
+
 
 # Support 
 
