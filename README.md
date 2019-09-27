@@ -3,9 +3,16 @@
 <p><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></p>
 <p><a href="https://t.me/joinchat/A5Pku0jSwq0GCaQJP3MqZg"><img src="https://patrolavia.github.io/telegram-badge/chat.png"></a></p>
 
-# About Anypay 
+# Benefits 
 
-Founded back in 2015, Anypay has been a trusted industry leader in cryptocurrency payments for years, serving hundreds of businesses around the world. The experienced team is great at helping store owners new to Bitcoin understand and use it to improve their business.      
+* More Customers 
+
+* Easy to install 
+
+* Get your money instantly
+
+* No fees 
+
 
 # WooCommerce Plugin
 
@@ -53,3 +60,8 @@ Please reach out to <steven@anypayinc.com> for assistance or any questions
 # Example Site 
 
 <p>Try out our example site <a href="https://anypaymugs.com">https://anypaymugs.com</a></p>
+
+# About Anypay 
+
+Founded back in 2015, Anypay has been a trusted industry leader in cryptocurrency payments for years, serving hundreds of businesses around the world. The experienced team is great at helping store owners new to Bitcoin understand and use it to improve their business.      
+
