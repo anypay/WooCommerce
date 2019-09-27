@@ -209,7 +209,8 @@ function init_anypay_gateway_class() {
         'method' => 'PUT',
         'body' => array(
           'denomination' => $denomination,
-          'business_name' => $_POST['woocommerce_wc_gateway_anypay_merchant']
+          'business_name' => $_POST['woocommerce_wc_gateway_anypay_merchant'],
+          'email' => $_POST['woocommerce_wc_gateway_anypay_email']
         ),
         'headers' => array(
           'Authorization' => 'Basic ' . base64_encode( $anypay_settings['access_token'] . ':')
