@@ -5,14 +5,13 @@
 
 # Benefits 
 
-* More Customers 
-
 * Easy to install 
-
-* Get your money instantly
 
 * No fees 
 
+* More Customers 
+
+* Get your money instantly
 
 # WooCommerce Plugin
 
