@@ -5,7 +5,7 @@
 
 # About Anypay 
 
-Founded back in 2015, Anypay has been a trusted industry leader in cryptocurrency payments for years; serving hundreds of businesses around the world. The experienced team is great at helping store owners new to Bitcoin understand and use it to improve their business.      
+Founded back in 2015, Anypay has been a trusted industry leader in cryptocurrency payments for years, serving hundreds of businesses around the world. The experienced team is great at helping store owners new to Bitcoin understand and use it to improve their business.      
 
 # WooCommerce Plugin
 
