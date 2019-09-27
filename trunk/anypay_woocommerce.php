@@ -209,14 +209,14 @@ function init_anypay_gateway_class() {
         'method' => 'PUT',
         'body' => array(
           'denomination' => $denomination,
+          'business_name' => $_POST['woocommerce_wc_gateway_anypay_merchant']
         ),
         'headers' => array(
           'Authorization' => 'Basic ' . base64_encode( $anypay_settings['access_token'] . ':')
         )
       );
 
-      $result = wp_remote_request( 'https://api.anypay.global/settings/denomination', $args );
-
+      $result = wp_remote_request( 'https://api.anypay.global/account', $args );
 
     } 
 
@@ -230,7 +230,7 @@ function init_anypay_gateway_class() {
                     'title' => __('On/off', 'woocommerce'),
                     'type' => 'checkbox',
                     'label' => __('On', 'woocommerce'),
-                    'default' => 'no'
+                    'default' => 'yes'
         ),
 		'address' => array(
 			'title'       => 'Enter BSV Address or HandCash handle',
@@ -239,10 +239,16 @@ function init_anypay_gateway_class() {
             'default'     => '',
 		),
         'merchant' => array(
-                    'title' => __('Merchant name', 'woocommerce'),
+                    'title' => __('Store name', 'woocommerce'),
                     'type' => 'text',
-                    'description' => __('Shows Merchant name in the payment order. If this field is blank then Site Title from General settings will be shown.', 'woocommerce'),
+                    'description' => __('', 'woocommerce'),
                     'default' => ''
+        ),
+        'email' => array(
+                    'title' => 'Email',
+                    'type' => 'text',
+                    'description' => 'Optional, Allow us to reach out! We want to help promote your website to BSV users and provide the best product possible',
+                    'default' => '' 
         ),
 	  );
      }
