@@ -9,11 +9,11 @@ Founded back in 2015, Anypay has been a trusted industry leader in cryptocurrenc
 
 # WooCommerce Plugin
 
-Anypay Payment Gateway is a custom WooCommerce plugin that is powered by Anypay's reliable payments API that makes it incredibly simple easy to start accepting BitcoinSV at your online store.
+Anypay Payment Gateway is a custom WooCommerce plugin is powered by Anypay's reliable payments API.  This plugin makes it incredibly simple easy to start accepting BitcoinSV at your online store today.
 
 # How does it work?
 
-* The Buyer prepares the order and clicks on the "proceed to Anypay" button.
+* The Buyer prepares the order and clicks on the "Pay with Bitcoin SV" button.
 
 * The Buyer is redirected to the invoice 
 
