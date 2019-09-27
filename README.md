@@ -1,5 +1,5 @@
 ![alt text](https://i0.wp.com/anypayinc.com/wp-content/uploads/2019/02/anypay_1024x400light.jpg)
-
+![alt text](./assets/build-pass.svg)
 # About Anypay 
 
 Founded back in 2015, Anypay has been a trusted industry leader in cryptocurrency payments for years serving hundreds of businesses around the world in accepting Bitcoin payments. The experienced team is great at helping store owners new to Bitcoin understand and use it to improve their business.      
