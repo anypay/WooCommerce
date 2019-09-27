@@ -1,7 +1,8 @@
-![alt text](https://i0.wp.com/anypayinc.com/wp-content/uploads/2019/02/anypay_1024x400light.jpg)
+<p align="center"><a href="https://anypayinc.com/"><img src="https://i0.wp.com/anypayinc.com/wp-content/uploads/2019/02/anypay_1024x400light.jpg" alt="Anypay"></a></p>
 ![alt text](./assets/build-pass.svg)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
-[<img src="https://patrolavia.github.io/telegram-badge/chat.png">]("https://t.me/joinchat/A5Pku0jSwq0GCaQJP3MqZg")
+<p><a href="https://t.me/joinchat/A5Pku0jSwq0GCaQJP3MqZg"><img src="https://patrolavia.github.io/telegram-badge/chat.png"></a></p>
 
 # About Anypay 
 
