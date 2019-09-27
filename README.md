@@ -48,7 +48,7 @@ Anypay Payment Gateway is a custom WooCommerce plugin, powered by Anypay's relia
 
 # Support 
 
-Please reach out to <support@anypayinc.com> for assistance or any questions
+Please reach out to <steven@anypayinc.com> for assistance or any questions
 
 # Example Site 
 
