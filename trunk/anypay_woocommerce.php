@@ -85,10 +85,6 @@ function init_anypay_gateway_class() {
 	  $this->init_form_fields();
       $this->init_settings();
 
-		// Define user set variables.
-      //$this->address        = $this->get_option( 'address' );
-     // $this->enabled        = $this->get_option( 'enabled' );
-      
       add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'process_admin_options' ) );
       add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'save_anypay_settings' ) );
       add_action('woocommerce_api_'.strtolower(get_class($this)), array(&$this, 'handle_callback'));
