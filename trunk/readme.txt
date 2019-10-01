@@ -35,5 +35,20 @@ Click Install Now.
 Enter your bitcoin address or handcash handle to Anypay Gateway Settings: Admin > WooCommerce > Settings > Checkout tab > Anypay Gateway.
 An Anypay access token will be created for the store and saved in the plugin options 
 
+== 3rd party service ==
 
+This plugin relies on a third-party service from Anypay Inc. The plugin uses Anypay to generate BitcoinSV invoices for the customer to pay.  
+Once the customer pays then Anypay will send a webhook to indicate a payment was made and will forward the Bitcoins to the owners wallet.
 
+External endpoints used:
+
+- https://i1.wp.com/anypayinc.com/wp-content/uploads/2019/02/anypayMark_256.png, Anypay logo png
+- POST https://api.anypay.global/anonymous-accounts, creates an anonymous Anypay account 
+- PUT https://api.anypay.global/addresses/BSV, set Anypay BSV payout address
+- PUT https://api.anypay.global/account, updates Anypay account attributes
+- GET https://api.anypay.global/convert/{$value}-{$currency}/to-BSV, Converts order total to BSV equivalent 
+- POST https://api.anypay.global/invoices, creates Anypay Invoice
+- https://pos.anypay.global/invoices/{uid}, Displays invoice to be paid 
+
+Link to the service website: https://anypayinc.com
+Link to the services’ a terms of use and/or privacy policies: 
