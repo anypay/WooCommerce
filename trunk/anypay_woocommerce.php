@@ -325,7 +325,7 @@ function init_anypay_gateway_class() {
            'redirect_url' => $this->get_return_url( $order ),
            'webhook_url' => home_url('/?wc-api=wc_gateway_anypay'), 
            'address'     => $anypay_settings['address'],
-           'external_id' => $order->id,
+           'external_id' => $order->get_id(),
          ),
          'headers' => array(
            'Authorization' => 'Basic ' . base64_encode( $anypay_settings['access_token'] . ':')
@@ -360,9 +360,9 @@ function init_anypay_gateway_class() {
 
          $safe_currency = sanitize_text_field($invoice->currency);
 
-         $safe_denominiation_currency = sanitize_text_field($invoice->denomination_currency);
+         $safe_denomination_currency = sanitize_text_field($invoice->denomination_currency);
 
-         $this->anypay_createInvoice( $order->id, $safe_uid, $safe_account_id, $safe_amount, $safe_currency, $safe_status, $safe_denomination_currency);
+         $this->anypay_createInvoice( $order->get_id(), $safe_uid, $safe_account_id, $safe_amount, $safe_currency, $safe_status, $safe_denomination_currency);
 
          return array(
           'result'   => 'success',
