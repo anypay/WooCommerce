@@ -75,7 +75,7 @@ function init_anypay_gateway_class() {
       $this->has_fields = false;
       $this->description = 'Pay with Bitcoin via Anypay';
       $this->title = 'Anypay';
-      $this->icon = 'https://i1.wp.com/anypayinc.com/wp-content/uploads/2019/02/anypayMark_256.png';
+      $this->icon =  plugins_url('anypay_logo.png', __FILE__ );
       $this->order_button_text = __('Pay with Bitcoin SV', 'woocommerce');
       $this->method_title = 'Anypay Gateway';
       $this->method_description = sprintf( 'The simplist and easiest way to accept Bitcoin at your Woocommerce store.  Read more <a href="%1$s" target="_blank">how does it work</a>.', 'https://anypayinc.com/earn-bitcoin-at-your-woocommerce-store' );;
