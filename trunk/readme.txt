@@ -51,4 +51,4 @@ External endpoints used:
 - https://pos.anypay.global/invoices/{uid}, Displays invoice to be paid 
 
 Link to the service website: https://anypayinc.com
-Link to the services’ a terms of use and/or privacy policies: https://anypayinc.com/woo-terms/ 
+Link to the services’ a terms of use and/or privacy policies: https://anypayinc.com/plugin-terms/
