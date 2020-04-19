@@ -1,5 +1,5 @@
-=== Accept Bitcoini SV Payments via Anypay Gateway for WooCommerce ===
-Contributors: brandonbryant
+=== Accept Bitcoin SV Payments via Anypay Gateway for WooCommerce ===
+Contributors: brandonbryant, stevenzeiler
 Donate link: https://anypayinc.com
 Tags: bitcoin, payments, BSV, cryptocurrency, satoshi 
 Requires PHP: 5.6
